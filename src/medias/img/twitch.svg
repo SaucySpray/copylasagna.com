@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="twitch" class="cls-1" d="M4.9,2H31V19.4l-7.25,7.25h-5.8L13.6,31H9.25V26.65H2V7.8L4.9,2M28.1,17.95V4.9H7.8V22.3h4.35v4.35L16.5,22.3h7.25l4.35-4.35m-7.25-8.7h2.9V16.5h-2.9V9.25m-4.35,0V16.5H13.6V9.25Z" transform="translate(-2 -2)"/>
+</svg>
