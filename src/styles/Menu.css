@@ -11,7 +11,7 @@
 }
 
 .menu--logo{
-  display: block;
+  display: flex;
   width: 188px;
   height: 42px;
   background-image: url("../medias/img/logo.svg");
@@ -23,28 +23,49 @@
 
 .menu--search{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  width: 260px;
-  height: 42px;
+  width: 320px;
+  height: 32px;
   background-color: rgb(121, 152, 165);
-  padding: 4px 6px;
+  top: 8px;
+  position: relative;
 }
 
 .blank{
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 22px;
   background-color: white;
+}
+
+.searchBtn{
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../medias/img/loupe.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu--nav{
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
-  width: auto;
-  height: 26px;
+  width: 220px;
+  height: 32px;
   top: 8px;
-  overflow-y: visible;
+  position: relative;
+}
+
+.menu--nav--e{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #819CA9;
+  color: white;
+  width: auto;
+  height: 100%;
+  padding: 0 5px;
 }
