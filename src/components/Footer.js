@@ -7,8 +7,8 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="footer--left">
           <div className="footer--left--e footer--logo"></div>
-          <div className="footer--left--e"></div>
-          <div className="footer--left--e"></div>
+          <div className="footer--left--e">copylasagna.com © - All rights reserved.</div>
+          <div className="footer--left--e">Coded with <span className="love"></span> from France by<a href="#" className="saucy">Saucy</a>.</div>
         </div>
         <div className="footer--right">
           <div className="footer--right--e">
